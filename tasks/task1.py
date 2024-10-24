@@ -29,7 +29,7 @@ velocity all create 300.0 12345 mom yes rot yes
 # 5. Управление шагами симуляции и вывод результатов
 thermo 100
 thermo_style custom step temp pe ke etotal press
-dump 1 all atom 100 dump.cube_stretch
+dump 1 all atom 100 dump.cube_stretch2
 dump_modify 1 scale yes
 
 # 6. Фиксация границ и растяжение куба по оси z
