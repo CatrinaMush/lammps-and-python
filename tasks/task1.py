@@ -18,7 +18,7 @@ region box block 0 10 0 10 0 10
 create_box 1 box
 create_atoms 1 box
 
-# 3. Задание взаимодействий через потенциал Эмбеди
+# 3. Задание взаимодействий через потенциал внедренного атома
 pair_style eam
 pair_coeff * * Cu_u3.eam
 
